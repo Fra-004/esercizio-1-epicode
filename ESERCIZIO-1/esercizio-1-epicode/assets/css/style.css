@@ -43,7 +43,6 @@ h2,h3,label{
 
 nav a{
     font-weight: bold;
-    line-height: 2;
     color: yellow
 }
 nav a:hover{
@@ -119,6 +118,7 @@ button:hover{
     background-color: #172136;
     text-align: center;
     color: white;
+    
 
  }
 
@@ -169,6 +169,11 @@ table{
     border-collapse:collapse ;
     margin-bottom: 10px;
 }
+
 th{
     color: #032774;
+}
+
+footer p{
+    margin-bottom: 0;
 }
