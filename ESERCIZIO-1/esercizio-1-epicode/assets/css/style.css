@@ -27,6 +27,7 @@ h2,h3,label{
     text-align: center;
     margin: 0;
     height: 100%;
+    border-bottom: 2px solid yellow;
 
 }
 
@@ -36,15 +37,33 @@ h2,h3,label{
     font-weight: bold;
     color: #F44A4A;
     margin-top: 0;
-    margin-bottom: 0;
+   padding-top: 80px;
 }
+
 
 nav a{
     font-weight: bold;
     line-height: 2;
+    color: yellow
 }
 nav a:hover{
     color: hsl(67, 98%, 26%);
+}
+
+nav ul{
+   width:50%
+    display: inline-block;
+    margin-bottom: 80px;
+    
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+nav ul li:not(last-child){
+    margin-right: 15px;
 }
 
 .tagline{
