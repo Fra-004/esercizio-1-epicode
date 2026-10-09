@@ -110,6 +110,7 @@ button{
     color: white;
     font-weight: bold;
     width: 10%;
+    
 }
 button:hover{
     color: hsl(220, 60%, 45%);
